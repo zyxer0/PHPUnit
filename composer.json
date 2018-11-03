@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\Request\\": "source/request",
+            "Source\\Request\\GetParams\\": "source/request/getParams",
+            "Source\\Response\\": "source/response",
+            "Source\\Entity\\": "source/entity"
+        }
+    }
+}
